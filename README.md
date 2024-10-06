@@ -3,8 +3,7 @@ Project Overview
 The Video Face Identifier project is designed to detect and identify specific faces in videos or screen recordings. The system records the screen, detects faces in real time using the YOLOv3 model and dlib facial landmarks predictor, and compares the detected faces with a pre-defined target face (person_target.jpg). When a match is found, the frame containing the face is saved.
  
 Folder Structure
-bash
-Copia codice
+
 recorder/
 │
 ├── detected_person/                     # Folder where the detected face frames are saved
