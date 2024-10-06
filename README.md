@@ -13,6 +13,7 @@ recorder/
 ├── video_face_identifier.py             # Main script for face detection and screen recording
 ├── yolov3                               # YOLOv3 configuration file for object detection
 └── yolov3.weights                       # YOLOv3 weights file for object detection
+
 1. detected_person/
 This folder stores the frames where a match is found between the detected faces and the target face. Each frame is saved with the format person_<frame_count>.jpg.
 
